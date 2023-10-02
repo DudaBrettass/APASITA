@@ -1,0 +1,746 @@
+@import url('https://fonts.googleapis.com/css2?family=Playball&family=Quicksand:wght@500&family=Squada+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+h1 {
+    font-size: 6vw;
+    display: flex;
+    margin-bottom: center;
+    color: rgb(219, 221, 245);
+}
+
+h2 {
+    font-size: 3vw;
+    margin-bottom: 1rem;
+    color: rgb(210, 212, 238);
+}
+@media (max-width: 1280px) {
+    h1 {
+        font-size: 8vw;
+        display: flex;
+        margin-bottom: center;
+        color: rgb(219, 221, 245);
+    }
+    
+    h2 {
+        font-size: 4vw;
+        margin-bottom: 1rem;
+        margin-right: 0.5vh;
+        color: rgb(210, 212, 238);
+    }
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+    font-size: 1.30vw;
+    margin-bottom: 0.5vw;
+    color: rgb(0, 0, 3);
+
+}
+
+h4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 2.8vw;
+    color: #ffffff;
+    height: 100%;
+}
+@media (max-width: 1280px) {
+    h4 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 8vw;
+        color: #ffffff;
+        height: 100%;
+    }
+}
+
+h5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.8vw;
+    margin-bottom: 0.5rem;
+    color: rgb(50, 70, 126);
+    height: 100%;
+}
+
+p {
+    font-size: 3vh;
+    line-height: 3.5vh;
+    text-align: center;
+}
+@media (max-width: 1280px) {
+    p {
+        font-size: 1.5vh;
+        line-height: 1.6vh;
+        text-align: center;
+    }
+}
+
+/* Capas */
+
+.logo {
+    border-radius: 100%;
+    height: 28vh;
+    margin-left: 5%;
+    margin-right: 8%;
+    background-image: src="./assets/img/WhatsApp Image 2023-09-14 at 20.08.21.jpeg";
+}
+@media (max-width: 720px) {
+    .logo {
+        border-radius: 100%;
+        height: 15vh;
+        margin-left: 5%;
+        margin-right: 8%;
+        background-image: src="./assets/img/WhatsApp Image 2023-09-14 at 20.08.21.jpeg";
+    }
+}
+
+.textocapa {
+    display: flax;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    margin-right: 2%;
+}
+
+.capa1 {
+    background-color: rgb(105, 145, 255);
+    background-image: url("/APASITA/assets/img/CapaIndexPrincipal.png");
+    height: 45vh;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.capa2 {
+    background-color: rgb(105, 145, 255);
+    background-image: url("/APASITA/assets/img/CapaServiços.png");
+    height: 45vh;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+
+}
+
+.capa3 {
+    background-color: rgb(105, 145, 255);
+    background-image: url("/APASITA/assets/img/CapaIntegrantes.png");
+    height: 45vh;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.capa4 {
+    background-color: rgb(50, 70, 126);
+    background-image: url("/APASITA/assets/img/CapaAvisos.png");
+    height: 45vh;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+.capa5 {
+    background-color: rgb(50, 70, 126);
+    background-image: url("/APASITA/assets/img/capamao.jpeg");
+    height: 45vh;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+@media (max-width: 720px) {
+    .capa1 {
+        background-color: rgb(105, 145, 255);
+        background-image: url("/APASITA/assets/img/CapaIndexPrincipal.png");
+        height: 35vh;
+        display: flex;
+        align-items: center;
+        justify-content: left;
+    }
+    
+    .capa2 {
+        background-color: rgb(105, 145, 255);
+        background-image: url("/APASITA/assets/img/CapaServiços.png");
+        height: 35vh;
+        display: flex;
+        align-items: center;
+        justify-content: left;
+    
+    }
+    
+    .capa3 {
+        background-color: rgb(105, 145, 255);
+        background-image: url("/APASITA/assets/img/CapaIntegrantes.png");
+        height: 35vh;
+        display: flex;
+        align-items: center;
+        justify-content: left;
+    }
+    
+    .capa4 {
+        background-color: rgb(50, 70, 126);
+        background-image: url("/APASITA/assets/img/CapaAvisos.png");
+        height: 35vh;
+        display: flex;
+        align-items: center;
+        justify-content: left;
+    }
+    
+    .capa5 {
+        background-color: rgb(50, 70, 126);
+        background-image: url("/APASITA/assets/img/WhatsApp\ Image\ 2023-10-01\ at\ 16.36.15.jpeg");
+        height: 35vh;
+        display: flex;
+        align-items: center;
+        justify-content: left;
+    }
+}
+
+/* Pagina 1 - principal */
+
+#principalcontainer {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+.principaltexto {
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    text-align: center;
+}
+
+.principalParagrafoeImagemContainer {
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 5vh;
+}
+
+.paragrafoimagem {
+    width: 60%;
+    text-align: justify;
+}
+
+.principalfoto {
+    height: auto;
+    width: 35%;
+}
+
+.TiposSurdos {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 3vh;
+    margin-left: 5vh;
+    margin-right: 5vh;
+    margin-bottom: 3vh;
+}
+
+.conteinertipos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.imgtipos {
+    height: auto;
+    width: 38%;
+    margin-top: 5vh;
+}
+
+.paragrafotipos {
+    width: 55%;
+    text-align:justify;
+}
+
+.paragrafotipos2 {
+    text-align:justify;
+    margin-top: 2vh;
+}
+
+#principalLibras{
+margin-bottom: 5vh;
+}
+
+.conteinerlibras {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+.SinaisLibras {
+    display: flex;
+    flex-direction: column;
+    width:40%;    
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10vh;
+}
+
+.imglibras {
+    display: flex;
+    height: auto;
+    width: 30vw;
+}
+
+.paragrafolibras {
+    text-align: center;
+    margin-top: 3vh;
+
+}
+
+/* Pagina 2 - Serviços */
+
+#servicospagina {
+    display: flex;
+    margin-bottom: 5vh;
+    flex-direction: column;
+}
+
+.containerservicos {
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    align-items: center;
+}
+
+.servicos {
+    height: fit-content;
+    display: flex;
+flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 45%;
+}
+
+.servicosparagrafo {
+    margin-top: 1vh;
+    width: 50%;
+    text-align: center;
+    color:rgb(50, 70, 126)
+}
+@media (max-width: 1280px) {
+    .servicosparagrafo {
+        margin-top: 1vh;
+        width: 85%;
+        text-align: center;
+        color:rgb(50, 70, 126)
+    }
+}
+
+.fotosservico {
+    height: auto;
+    width: 50%;
+}
+
+.noticias {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 5vh;
+    margin-left: 5vh;
+    margin-right: 5vh;
+}
+
+.paragrafonoticia {
+    text-align: center;
+    margin-bottom: 5vh;
+}
+
+.fotosnoticia {
+    width: 20%;
+    height: auto
+}
+
+/* Pagina 3 - Integrantes */
+
+.integrantestitulo {
+    height: 20vh;
+    background-color: #b0b8ff;
+    justify-content: space-around;
+}
+@media (max-width: 1280px) {
+    .integrantestitulo {
+        height: 15vh;
+        background-color: #b0b8ff;
+        justify-content: center;
+    }
+}
+
+.integranteslinha {
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    width: 80vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+@media (max-width: 1280px) {
+    .integranteslinha {
+        margin-top: 2vh;
+        margin-bottom: 2vh;
+        width: 80vw;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+}
+
+.diretoriaclas {
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.interpretesclas {
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.surdosclas {
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 1280px) {
+    .diretoriaclas {
+        margin-top: 3vh;
+        margin-bottom: 3vh;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .interpretesclas {
+        margin-top: 3vh;
+        margin-bottom: 3vh;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+
+    }
+}
+
+.cargo {
+    font-size: 1.8vw;
+    margin-bottom: 1vw;
+    color: rgb(50, 70, 126);
+}
+
+.fotop {
+    border-radius: 50%;
+    width: 10vw;
+    aspect-ratio: 1/1;
+}
+
+.pessoa {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+.SoSurdo{
+    width: 90vw;
+}
+
+/* Pagina 4 - Avisos */
+
+.DadosCurso {
+    margin-top: 5vh;
+    margin-bottom: 10vh;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    text-align: center;
+}
+
+.conteinerdados{
+    height: fit-content;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.ImgCurso{
+    width: 60vw;
+}
+
+.justificarparagrafo{
+    text-align: justify;
+}
+
+.contatostitulo {
+    height: 20vh;
+    background-color: #b0b8ff;
+    justify-content: center;
+}
+
+.contatoscomlink{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ocontato{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5vh;
+}
+
+.doacao{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+/* tabela*/
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 20px auto;
+}
+
+th, td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+th {
+    background-color:rgb(50, 70, 126);
+    color: white;
+}
+
+/* Contador */
+
+#contador{
+     text-align: center;
+     background-color: #cacfff;
+     height: 100vh;
+}
+
+.contReg{
+    height: 20vh;
+    background-color: #b0b8ff;
+    justify-content: center;
+    
+}
+
+#countdown{
+    font-family: 'Playball', cursive;
+font-family: 'Quicksand', sans-serif;
+font-family: 'Squada One', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4vw;
+    height: 100%;
+    margin-top: -10vh;
+    /* margin-bottom: 10vh; */
+    color: rgba(0, 37, 160, 0.719);
+    flex-direction: column;
+
+}
+
+#days{
+     margin-right: 3vh;
+     margin-left: 3vh;
+}
+
+#hours{
+    margin-right: 3vh;
+    margin-left: 3vh;
+
+}
+
+#minutes{
+    margin-right: 3vh;
+    margin-left: 3vh;
+
+}
+
+#seconds{
+    margin-right: 3vh;
+    margin-left: 3vh;
+    
+}
+
+.data{
+    display: flex;
+    margin-bottom: 2vh;
+}
+
+/* Pagina 5 - Info  */
+
+.tema {
+    height: 20vh;
+    background-color: #b0b8ff;
+    justify-content: center;
+}
+
+.escolhatema {
+    margin-top: 5vh;
+    margin-bottom: 10vh;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    text-align: center;
+}
+
+.modelo {
+    height: 20vh;
+    background-color: #b0b8ff;
+    justify-content: center;
+}
+
+.escolhamodelo {
+    margin-top: 5vh;
+    margin-bottom: 10vh;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    text-align: center;
+}
+
+
+
+/* Itens menu */
+
+#menu-horizontal {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.507);
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 100%;
+    position: fixed;
+    height: 1.5cm;
+}
+
+#menu-horizontal ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+align-items: center;
+}
+
+#menu-horizontal ul li {
+    display: inline-block;
+    font-size: 14px;
+}
+
+#menu-horizontal ul li a {
+    color: rgb(255, 255, 255);
+    background-color: rgba(1, 13, 187, 0);
+    text-decoration: none;
+    padding: 15px;
+    display: inline-block;
+    transition: background 1s;
+    align-items: center;
+}
+
+#menu-horizontal ul li a:hover {
+    background-color: rgba(0, 0, 0, 0.062);
+    opacity: 0.5;
+}
+
+#menu-horizontal ul li a.sociallink {
+    color: rgb(255, 255, 255);
+    background-color: rgba(1, 13, 187, 0);
+    text-decoration: none;
+    padding: 15px;
+    display: inline-block;
+    /* Altere para "inline-block" */
+    margin-right: 10px;
+    /* Adicione margem à direita para separar os itens */
+    transition: background 1s;
+    
+
+}
+
+#menu-horizontal ul li a.sociallink:hover {
+    background-color: rgba(0, 0, 0, 0.062);
+    opacity: 0.5;
+}
+
+.redesocial {
+    display: flex;
+    width: 0.6cm;
+    color: #ffffff;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* Rodape */
+
+.Rodape{
+    background-color: rgb(50, 70, 126);
+    align-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.textRodape{
+    color:#b0b8ff;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    font-size: 1rem;
+    line-height: 2rem;
+}
+
