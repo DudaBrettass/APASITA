@@ -160,6 +160,7 @@ p {
 
 @media (max-width: 720px) {
     .capa1 {
+        background-color: rgb(50, 70, 126);
         background-image: url("/APASITA/assets/img/CapaIndexPrincipal.png");
         height: 35vh;
         display: flex;
@@ -168,6 +169,7 @@ p {
     }
     
     .capa2 {
+        background-color: rgb(50, 70, 126);
         background-image: url("/APASITA/assets/img/CapaServiços.png");
         height: 35vh;
         display: flex;
@@ -177,6 +179,7 @@ p {
     }
     
     .capa3 {
+        background-color: rgb(50, 70, 126);
         background-image: url("/APASITA/assets/img/CapaIntegrantes.png");
         height: 35vh;
         display: flex;
@@ -185,6 +188,7 @@ p {
     }
     
     .capa4 {
+        background-color: rgb(50, 70, 126);
         background-image: url("/APASITA/assets/img/CapaAvisos.png");
         height: 35vh;
         display: flex;
@@ -193,6 +197,7 @@ p {
     }
     
     .capa5 {
+        background-color: rgb(50, 70, 126);
         background-image: url("/APASITA/assets/img/WhatsApp\ Image\ 2023-10-01\ at\ 16.36.15.jpeg");
         height: 35vh;
         display: flex;
