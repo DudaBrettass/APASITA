@@ -119,6 +119,7 @@ p {
 }
 
 .capa1 {
+    background-color: rgb(50, 70, 126);
     background-image: url("/APASITA/assets/img/CapaIndexPrincipal.png");
     height: 45vh;
     display: flex;
@@ -127,6 +128,7 @@ p {
 }
 
 .capa2 {
+    background-color: rgb(50, 70, 126);
     background-image: url("/APASITA/assets/img/CapaServiços.png");
     height: 45vh;
     display: flex;
@@ -136,6 +138,7 @@ p {
 }
 
 .capa3 {
+    background-color: rgb(50, 70, 126);
     background-image: url("/APASITA/assets/img/CapaIntegrantes.png");
     height: 45vh;
     display: flex;
@@ -144,6 +147,7 @@ p {
 }
 
 .capa4 {
+    background-color: rgb(50, 70, 126);
     background-image: url("/APASITA/assets/img/CapaAvisos.png");
     height: 45vh;
     display: flex;
@@ -151,6 +155,7 @@ p {
     justify-content: left;
 }
 .capa5 {
+    background-color: rgb(50, 70, 126);
     background-image: url("/APASITA/assets/img/capamao.jpeg");
     height: 45vh;
     display: flex;
